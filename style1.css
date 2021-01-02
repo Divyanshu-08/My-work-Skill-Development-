@@ -1,0 +1,199 @@
+body{
+    background-color: beige;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    font: larger bolder 'Times New Roman',"Times","serif";
+    line-height: 2em;
+    /*background-image: url(../images/test.1.jpg);*/
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color:red;
+
+}
+a:active{
+    color: green;
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.button{
+    background-color: darkgoldenrod;
+    color: lightgray;
+    padding: 10px 0px;
+    border: thick;
+    
+}
+.button:hover{
+    background-color: plum;
+    color:pink;
+}
+.clr{
+    clear: both;
+}
+.box-1{
+    background-color:rgb(81, 143, 143);
+    color:white;
+    border-right: 5px blue solid;
+    border-bottom: 5px blue solid;
+    border-top: 5px blue solid;
+    border-left: 5px blue solid;
+    /*same as above*/
+    border: blue solid 5px;
+    border-top-width: 10px;
+    border-style: ridge ;
+    padding:20px ;
+
+    margin: 20px 0px;
+
+}
+.box-1 h1{
+    text-align: center;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 1em;
+    letter-spacing: 0.5em;
+    text-decoration: wavy;
+}
+.box-2{
+    border: 3px  blue solid;
+    margin: 20px 0px;
+    padding: 20px;
+     text-transform:uppercase ;
+
+
+}
+.box-3{
+    border: 2px black solid;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.box-3 h1{
+    text-align: center;
+}
+.box-3 ul{
+    padding:50px;
+    list-style: square;
+    padding-left: 650px;
+
+}
+.box-3 li{
+    padding-bottom: 6px;
+    border-bottom:dotted 1px #333333;
+    list-style-image: url("../images/download.png");
+   
+}
+.my-form {
+    padding: 50px;
+}    
+.my-form .d{
+    padding-bottom: 15px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text" ], .my-form textarea{ 
+    padding:8px ;
+    width: 100%;
+}
+/*put 1 css for button after body check
+.my-form input[type="submit"]{
+    background-color: indigo;
+    color: lightgray;
+    padding: 10px 0px;
+    border: thick;
+    width: 50%;
+}
+*/
+.block{
+    float: left;
+    width:33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+#mail-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+    
+    border: 1px solid #000000;
+    width: 80%;
+    height: 500px;
+    margin-top: 30px;
+    position: relative;
+    background-image: url("../images/test.1.jpg");
+    background-repeat:no-repeat;
+    background-position: 100px 200px;
+
+    
+}
+.p-box h1{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+}
+.fix-me{
+    position:fixed;
+    top:100px;
+}
+.my-list li:first-child{
+    background: orangered;
+}
+.my-list li:last-child{
+    background-color: powderblue;
+
+}
+.my-list li:nth-child(6){
+    background: purple;
+}
+/*you can do even odd also */
+.my-list li:nth-child(even){
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
